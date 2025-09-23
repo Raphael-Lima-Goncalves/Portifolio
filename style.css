@@ -1,0 +1,167 @@
+body {
+    background: linear-gradient(135deg, #1a1a2e 60%, #16213e 100%);
+    color: #fff;
+    font-family: 'Press Start 2P', 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 40px;
+    text-shadow: 2px 2px 0 #e94560, 4px 4px 0 #0f3460;
+    letter-spacing: 2px;
+}
+
+h3 a{
+  color: white;
+  text-decoration: none;
+}
+
+p {
+    background: rgba(44, 62, 80, 0.85);
+    border: 2px solid #e94560;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 500px;
+    font-size: 1.2em;
+    box-shadow: 0 0 20px #0f3460;
+}
+.container-foto {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px
+}
+
+.foto-circular{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 40px 0 0 0;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.menu li a:hover {
+    background: #e94560;
+}
+
+form {
+    background: rgba(44, 62, 80, 0.85);
+    border: 2px solid #e94560;
+    border-radius: 12px;
+    padding: 32px 24px;
+    max-width: 400px;
+    margin: 40px auto;
+    box-shadow: 0 0 20px #0f3460;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+form label {
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 4px;
+}
+
+form input,
+form textarea {
+    background: #16213e;
+    color: #fff;
+    border: 1px solid #e94560;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 8px;
+    resize: none;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #fff;
+    background: #0f3460;
+}
+
+form button {
+    background: #e94560;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 0;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 8px;
+}
+
+form button:hover {
+    background: #0f3460;
+}
+
+table {
+    width: 400px;
+    margin: 32px auto;
+    border-collapse: collapse;
+    background: rgba(44, 62, 80, 0.85);
+    box-shadow: 0 0 16px #0f3460;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px 18px;
+    text-align: left;
+    color: #fff;
+}
+
+th {
+    background: #e94560;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #0f3460;
+}
+
+tr:nth-child(even) td {
+    background: #16213e;
+}
+
+tr:nth-child(odd) td {
+    background: transparent;
+}
+
+td {
+    border-bottom: 1px solid #0f3460;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+h2{
+  text-align: center;
+}
