@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim</title>
+    <title>Início</title>
+    <link rel="website icon" type="png"
+    href="greninja.png"
 </head>
 <body>
     <div id="mensagem-dinamica" class="mensagem-dinamica"></div>
 
-    <ul class="menu">
-        <li class="inicio"><a href="index.html">Início</a></li>
-        <li class="sobre"><a href="sobre.html">Sobre</a></li>
-        <li class="contato"><a href="contato.html">Contato</a></li>
-    </ul>
+    <!-- botão hamburger (visível em todos dispositivos) -->
+    <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- menu móvel/overlay (abre com o botão hamburger) -->
+    <nav class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
     <h1>Início</h1>
-    <p>Esse site aqui é para eu aprender a propgramar melhor</p>
+    <p>Esse site aqui é para eu aprender a programar melhor</p>
     <h6>Voltar ao topo</h6>
 </body>
 </html>

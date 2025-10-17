@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mim</title>
+    <link rel="website icon" type="png"
+    href="zeraora2.png"
 </head>
 <body>
-    <ul class="menu">
-        <li class="inicio"><a href="index.html">Início</a></li>
-        <li class="sobre"><a href="sobre.html">Sobre</a></li>
-        <li class="contato"><a href="contato.html">Contato</a></li>
-    </ul>
+    <!-- botão hamburger -->
+    <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
     <h1>Sobre Mim</h1>
+    <div class="container-foto">
+        <img src="desfocado.png" alt="Minha foto de agora" class="foto-circular">
+    </div>
     <p>Olá me chamo Raphael, tenho 15 anos e estou no primeiro ano do Ensino Médio,
     gosto de videogame, esporte e animes. No momento estou aprendendo programação, por isso
     estou escrevendo isso</p>
-
-    <div class="container-foto">
-    <img src="desfocado.png" alt="Minha foto de agora" class="foto-circular">
-    </div>
 </body>
 </html>

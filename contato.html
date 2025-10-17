@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="website icon" type="png"
+    href="lucario.png"
 </head>
 <body>
-    <ul class="menu">
-        <li class="inicio"><a href="index.html">Início</a></li>
-        <li class="sobre"><a href="sobre.html">Sobre</a></li>
-        <li class="contato"><a href="contato.html">Contato</a></li>
-    </ul>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
     <h1>Formulário de Contato</h1>
     <form>
         <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required><br><br>
- 
+        <input type="text" id="nome" name="nome" required>
+
         <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required><br><br>
- 
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem" rows="4" cols="40" required></textarea><br><br>
- 
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
         <button type="submit">Enviar</button>
     </form>
- 
+
     <h2>Tabela Simples</h2>
-    <table border="1">
+    <table>
         <tr>
             <th>Nome</th>
             <th>E-mail</th>
@@ -36,10 +48,6 @@
             <td>Raphael</td>
             <td>raphael@gmail.com</td>
         </tr>
-   
     </table>
- 
-    <br>
 </body>
 </html>
- 
